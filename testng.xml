@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/administrator/Downloads/Propine/src/main/java/common/Base.java"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Date Parser Test Suite">
+    <test verbose="2" preserve-order="true" name="PropineDateTest">
+
+        <classes>
+            <class name="com.propine.tests.PropineDateTest"  >
+                <methods>
+                    <include name="validDateTest" >
+                    </include>
+                    <include name ="invalidDateTest">
+                    </include>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Date Parser Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PropineDateTest(failed)">
+    <classes>
+      <class name="com.propine.tests.PropineDateTest">
+        <methods>
+          <include name="invalidDateTest" invocation-numbers="2 4 5 6"/>
+          <include name="validDateTest" invocation-numbers="11 13"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.propine.tests.PropineDateTest -->
+    </classes>
+  </test> <!-- PropineDateTest(failed) -->
+</suite> <!-- Failed suite [Date Parser Test Suite] -->
