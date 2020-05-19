@@ -69,10 +69,10 @@ Folder structure conventions
     │       │    │
 
 
-   ### Test Execution
-       ==============
-        Maven  tool is used for the project build and dependencies configuration.
-    > Execution from a terminal window example:
+    **Test Execution
+      
+    Maven  tool is used for the project build and dependencies configuration.
+    Execution from a terminal window example:
     $ mvn clean test
 
    Reporting
