@@ -1,5 +1,5 @@
-# Propine
-Date Parser QA Assignment
+# Date Parser Automation
+Date Parser 
 
 ## Table of contents
 * [General info](#general-info)
